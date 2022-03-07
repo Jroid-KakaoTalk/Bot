@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jroid</string>
+    <string name="check_service">서비스 상태 확인</string>
+</resources>
