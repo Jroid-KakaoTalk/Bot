@@ -119,7 +119,7 @@ public class NotificationService extends NotificationListenerService {
                         
                             image = Base64.encodeToString(baos.toByteArray(), 0);
                             int imageLength = image.length();
-                            image = image.substring(200, 250);
+                            image = image.substring(200, 255);
                             image = SystemConfig.getRegex(image, "-");
                             image = image + "+" + image.hashCode() + "+" + imageLength;
                         }
